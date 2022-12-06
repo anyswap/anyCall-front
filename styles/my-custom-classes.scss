@@ -1,0 +1,157 @@
+body{
+  background: url('/img/background_compressed.jpg');
+}
+
+.btn-padding{
+  padding: 20px 45px !important;
+}
+
+.navbar-toggler-color::after{
+  content: "";
+  background-color: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(134,182,255,1) 35%, rgba(255,158,222,1) 100%);
+}
+
+
+.why-card{
+  max-width: 95%;
+  width: 600px;
+  
+  border-radius: 30px;
+}
+
+.dark-back{
+  background: linear-gradient(180deg, #160045 0%, #0D0128 100%);
+}
+
+.blue-gradient-bg{
+  background: linear-gradient(153deg, #2F34AC 9.19%, #260063 97.87%);
+}
+
+.dark-card-bg{
+  background: #302F39;
+}
+
+.slider-card{
+  background: #302F39;
+  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.09);
+  border-radius: 15px;
+}
+
+.slider-card-text{
+  font-size: 20px;
+  line-height: 28px !important;
+
+  @media only screen and (max-width: 992px) {
+    font-size: 14px;
+    line-height: normal;
+  }
+}
+
+.light-blue{
+  color: #86B6FF;
+}
+
+.title-text{
+  @include font-size(44px);
+  font-weight: bold;
+}
+
+.card-button-width{
+  width: 180px;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.gap-resp{
+  gap: 76px;
+
+  @media only screen and (max-width: 768px) {
+    gap: 0px;
+  }
+}
+
+.why-button-gap{
+  @media only screen and (min-width:455px) {
+    gap: 60px;
+  }
+}
+//responsive font sizing 
+
+  @media only screen and (max-width: 576px){
+    p{
+      font-size: 14px;
+    }
+
+    .text-20px{
+      font-size: 16px;
+    }
+
+    .text-16px{
+      font-size: 14px;
+    }
+  }
+
+
+.text-44px{
+  @include font-size(2.75rem);
+}
+
+.text-36px{
+  @include font-size(2.25rem);
+}
+
+.text-24px{
+  @include font-size(1.5rem);
+}
+
+.text-20px{
+  @include font-size(20px);
+}
+
+.text-16px{
+  font-size: 16px;
+}
+
+.text-14px{
+  @include font-size(14px);
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.badge-resize{
+  font-size: .4rem;
+}
+//roadmap timeline css
+
+.highlight-badge{
+  background: $primary !important;
+  border-color: $primary !important;
+}
+
+.highlight-border{
+  border-color: $primary !important;
+}
+
+
+
+.flex-button{
+  flex: 1 1 fit-content !important;
+  max-width: 231px;
+}
+
+.min-content{
+  width: min-content;
+}
+
+.nav-logo-size{
+  max-width: 150px;
+
+  @media only screen and (max-width: 990px) {
+    max-width: 112px;
+  }
+}
+ 
