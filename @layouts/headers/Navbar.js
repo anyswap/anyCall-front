@@ -30,7 +30,7 @@ export default function Navbar() {
               <Link href="https://drive.google.com/file/d/1NFFFecAjStbGMyvJVDez3xmsGSHYvNYv/view"  ><a className="my-nav-link " target="_blank">Whitepaper</a></Link>
             </li>
             <li className="py-2 nav-item">
-              <Link href="https://multidao.gitbook.io/anycall/" ><a className="my-nav-link " target="_blank">docs</a></Link>
+              <Link href="https://multidao.gitbook.io/anycall/" ><a className="my-nav-link " target="_blank">Docs</a></Link>
             </li>              
           </ul>
         
