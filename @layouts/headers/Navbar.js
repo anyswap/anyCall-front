@@ -13,24 +13,24 @@ export default function Navbar() {
           <ul className="justify-content-end navbar-nav ms-xl-4 w-100 " >
             <li className="py-2  nav-item" >
               <a href="#why-anycall" 
-              className='text-white'
+              className='my-nav-link'
                 >Why anyCall</a>
             </li>
             <li className="py-2 nav-item">
               <a href="#use-cases" 
-              className='nav-link'
+              className='my-nav-link'
               >Use Cases</a>
             </li>
             <li className="py-2 nav-item">
               <a href="#roadmap" 
-              className='nav-link'
+              className='my-nav-link'
               >Roadmap</a>
             </li>
             <li className="py-2 nav-item">
-              <Link href="https://drive.google.com/file/d/1NFFFecAjStbGMyvJVDez3xmsGSHYvNYv/view"  ><a className="nav-link " target="_blank">Whitepaper</a></Link>
+              <Link href="https://drive.google.com/file/d/1NFFFecAjStbGMyvJVDez3xmsGSHYvNYv/view"  ><a className="my-nav-link " target="_blank">Whitepaper</a></Link>
             </li>
             <li className="py-2 nav-item">
-              <Link href="https://multidao.gitbook.io/anycall/" ><a className="nav-link " target="_blank">docs</a></Link>
+              <Link href="https://multidao.gitbook.io/anycall/" ><a className="my-nav-link " target="_blank">docs</a></Link>
             </li>              
           </ul>
         
