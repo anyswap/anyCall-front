@@ -11,15 +11,18 @@ export const slideData = [
     buttons: [
       {
         text: "Curve",
-        url: "https://medium.com/multichainorg/curve-x-anycall-cross-chain-gauges-e657c1c6e5b5"
+        url: "https://medium.com/multichainorg/curve-x-anycall-cross-chain-gauges-e657c1c6e5b5",
+        blank: true
       },
       {
         text: "Hundred Finance",
-        url: "https://blog.hundred.finance/hundred-finance-mirroring-with-multichains-anycall-80108f6246a8"
+        url: "https://blog.hundred.finance/hundred-finance-mirroring-with-multichains-anycall-80108f6246a8",
+        blank: true
       },
       {
         text: "Tranchess",
-        url: "https://tranchess.medium.com/tranchess-x-multichain-empowering-tranchess-eth-liquid-staking-ef72e6fb96c0"
+        url: "https://tranchess.medium.com/tranchess-x-multichain-empowering-tranchess-eth-liquid-staking-ef72e6fb96c0",
+        blank: true
       }
     ]
   },
@@ -32,11 +35,13 @@ export const slideData = [
     buttons: [
       {
         text: "Fantom animals",
-        url: "https://twitter.com/multichainorg/status/1564891904143028224?s=46&t=bjIWHN6zbSrObDv4OgrOlQ"
+        url: "https://twitter.com/multichainorg/status/1564891904143028224?s=46&t=bjIWHN6zbSrObDv4OgrOlQ",
+        blank: true
       },
       {
         text: "Autocolor",
-        url: "https://twitter.com/multichainorg/status/1570729798783348737?s=46&t=bjIWHN6zbSrObDv4OgrOlQ"
+        url: "https://twitter.com/multichainorg/status/1570729798783348737?s=46&t=bjIWHN6zbSrObDv4OgrOlQ",
+        blank: true
       }
     ]
   },
@@ -49,7 +54,8 @@ export const slideData = [
     buttons: [
       {
         text: "Fiver for gas",
-        url: "https://medium.com/multichainorg/fiver-for-gas-cross-chain-gas-swap-powered-by-anycall-c78e5d47053c"
+        url: "https://medium.com/multichainorg/fiver-for-gas-cross-chain-gas-swap-powered-by-anycall-c78e5d47053c",
+        blank: true
       }
     ]
   },
@@ -62,7 +68,8 @@ export const slideData = [
     buttons: [
       {
         text: "SBT points",
-        url: "https://medium.com/multichainorg/magic-combination-of-anycall-and-sbt-points-a32f6f8a8c0c"
+        url: "https://medium.com/multichainorg/magic-combination-of-anycall-and-sbt-points-a32f6f8a8c0c",
+        blank: true
       }
     ]
   },
@@ -74,8 +81,9 @@ export const slideData = [
     content: "Communicate across all chains",
     buttons: [
       {
-        text: "use case",
-        url: ""
+        text: "Coming Soon",
+        url: "#dev-support",
+        blank: false
       }
     ]
   }

@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 export default function SliderCard({cardPic, cardTitle, content, buttons, slideUrl}) {
   const buttonElement= buttons.map(button => {
     return(
-      <a href={button.url} key={button.url} target="_blank">
+      <a href={button.url} key={button.url} target={button.blank ? "_blank" : "_self"}>
         <div className='btn btn-primary text-14px d-flex align-items-center'>
             {button.text}
         </div>
