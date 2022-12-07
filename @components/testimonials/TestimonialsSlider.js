@@ -11,7 +11,7 @@ export default function TestimonialsSlider() {
   const nextRef = React.useRef(null);
 
   const testimonialsHtml = testimonialData.map( slide => (
-    <SwiperSlide>
+    <SwiperSlide key={slide.profilePic}>
       <TestimonialsDefault userName={slide.userName}  profilePic={slide.profilePic} userPost={slide.userPost} comment={slide.comment}/>
     </SwiperSlide>
   ))

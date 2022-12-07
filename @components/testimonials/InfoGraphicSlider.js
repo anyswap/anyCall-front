@@ -11,7 +11,7 @@ export default function InfoGraphicSlider() {
   const nextRef = React.useRef(null);
 
   const slidesHtml = slideData.map( slide => (
-    <SwiperSlide key={slide.slideUrl}>
+    <SwiperSlide key={slide.cardPic}>
       <SliderCard cardPic={slide.cardPic} cardTitle= {slide.cardTitle} content={slide.content} buttons={slide.buttons} slideUrl={slide.slideUrl}/>
     </SwiperSlide>
   ))
