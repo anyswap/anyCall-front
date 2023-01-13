@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "@babel/core": "^7.0.0",
     "@popperjs/core": "^2.11.6",
     "aos": "^2.3.4",

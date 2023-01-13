@@ -164,4 +164,34 @@ body{
     max-width: 112px;
   }
 }
+
+.anyCallVxSupportedChains{
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1%;
+  justify-content: center;
+  li{
+    list-style: none;
+    text-align: center;
+    
+  }
+  @media only screen and (min-width: 800px) {
+    // justify-content: space-between;
+    li{
+      list-style: none;
+      width: 7%;
+      min-width: 165px;
+      margin-bottom: 20px;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    
+    li{
+      list-style: none;
+      width: 24.5%;
+      margin-bottom: 25px;
+    }
+  }
+}
  

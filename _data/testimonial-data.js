@@ -9,7 +9,7 @@ export const testimonialData = [
     userPost: "Co-Founder & CEO Tranchess",
     comment: "The integration of Multichain makes possible a seamless and secured cross chain experience for Tranchess users."
   },
-// slide 2
+  // slide 2
   {
     userName: "Hundred Finance",
     profilePic: "/img/shots/hundred.png",
@@ -18,8 +18,8 @@ export const testimonialData = [
   },
   // slide 3
   {
-    userName: "MultiDao starter",
-    profilePic: "/img/shots/multidao.png",
+    userName: "MultiDAO Initiator",
+    profilePic: "/img/shots/multiDAO_Initiator.png",
     userPost: "",
     comment: "As an organization fully driven by the Multichain community, our effort is to build a MultichainVerse connecting all blockchains based on Multichain’s cross-chain solutions. And we are glad to be the early users of anyCall which supports MultiDAO SBT, gathering veMULTI (vePower) messages on three chains that are Ethereum, BNB, and Fantom. People from different ecosystems could join MultiDAO and gain governance ability based on their veMULTI."
   }
