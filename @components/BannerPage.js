@@ -15,11 +15,12 @@ export default function BannerPage(props) {
   return (
     <div className='container pt-lg-9 pt-6 position-relative z-index-1'>
       <div className='row'>
-        {props.width > 450 ?
+        <h2 className='title-text text-center mb-6 fw-bold'>anyCall Use Cases</h2>
+        {/* {props.width > 450 ?
           <div className='col-xl-8 col-lg-10 mx-auto '>
-            {/* <a href='https://moralis.io/google-hackathon/' target="_blank">11
+            <a href='https://moralis.io/google-hackathon/' target="_blank">11
               <Image className='pointer h-auto' src={Banner} height="210px" width="1096px" />
-            </a> */}
+            </a>
             <h2 className='title-text text-center mb-6 fw-bold'>anyCall Use Cases</h2>
           </div>
           :
@@ -28,7 +29,7 @@ export default function BannerPage(props) {
               <Image className='pointer h-auto' src={BannerSmall} height="381px" width="311px" />
             </a>
           </div>
-        }
+        } */}
       </div>
 
       <div className='row pb-6 pt-5 pb-9'>
