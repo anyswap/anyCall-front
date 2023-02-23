@@ -14,7 +14,7 @@ const FooterDefault = (props) => {
     const getChainInfo = async () => {
         const res = await axios.get(bridgeApi + '/data/bridgeChainInfo')
         const anyCallV6SupportedChains = [1, 10, 56, 100, 137, 250, 1285, 4689, 42161, 43114, 256256, 1666600000, 8888, 61]
-        const anyCallV7SupportedChains = [1, 10, 56, 137, 250, 42161, 43114]
+        const anyCallV7SupportedChains = [1, 10, 25, 56, 137, 250, 42161, 43114]
         setChainV6Info(res ? Object.entries(res.data).filter(r => anyCallV6SupportedChains.includes(Number(r[0]))).map(r => r[1]) : [])
         setChainV7Info(res ? Object.entries(res.data).filter(r => anyCallV7SupportedChains.includes(Number(r[0]))).map(r => r[1]) : [])
     }

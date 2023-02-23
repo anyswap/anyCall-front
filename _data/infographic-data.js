@@ -5,25 +5,25 @@ export const slideData = [
   //slide 1
   {
     cardPic: "/img/C-C-Swap.png",
-    cardTitle: "Cross-chain Swap",
+    cardTitle: "Cross-chain Gauges",
     slideUrl: "https://dao.curve.fi/minter/gauges",
-    content: "Connect liquidities on any chains",
+    content: "Connect liquidity on any chains",
     buttons: [
       {
         text: "Curve",
         url: "https://medium.com/multichainorg/curve-x-anycall-cross-chain-gauges-e657c1c6e5b5",
         blank: true
       },
-      {
-        text: "Hundred Finance",
-        url: "https://blog.hundred.finance/hundred-finance-mirroring-with-multichains-anycall-80108f6246a8",
-        blank: true
-      },
-      {
-        text: "Tranchess",
-        url: "https://tranchess.medium.com/tranchess-x-multichain-empowering-tranchess-eth-liquid-staking-ef72e6fb96c0",
-        blank: true
-      }
+      // {
+      //   text: "Hundred Finance",
+      //   url: "https://blog.hundred.finance/hundred-finance-mirroring-with-multichains-anycall-80108f6246a8",
+      //   blank: true
+      // },
+      // {
+      //   text: "Tranchess",
+      //   url: "https://tranchess.medium.com/tranchess-x-multichain-empowering-tranchess-eth-liquid-staking-ef72e6fb96c0",
+      //   blank: true
+      // }
     ]
   },
   //slide 2
@@ -83,6 +83,39 @@ export const slideData = [
       {
         text: "Coming Soon",
         url: "#dev-support",
+        blank: false
+      }
+    ]
+  },
+  //slide 6
+  {
+    cardPic: "/img/C-C-NFT-Demo.jpg",
+    cardTitle: "Multichain NFT Minting demo",
+    slideUrl: "https://nft.multichaindao.org/",
+    content: "A native Multichain NFT solution",
+    buttons: [
+      {
+        text: "Demo",
+        url: "https://nft.multichaindao.org/",
+        blank: false
+      }
+    ]
+  },
+  //slide 7
+  {
+    cardPic: "/img/C-C-Token-Bridge.jpg",
+    cardTitle: "Permissionless Token Bridge",
+    slideUrl: "",
+    content: "Deploy bridge in a permissionless way",
+    buttons: [
+      {
+        text: "Caduceus",
+        url: "",
+        blank: false
+      },
+      {
+        text: "Swapfish",
+        url: "",
         blank: false
       }
     ]
