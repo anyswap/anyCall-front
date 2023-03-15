@@ -14,7 +14,7 @@ const FooterDefault = (props) => {
     const getChainInfo = async () => {
         const res = await axios.get(bridgeApi + '/data/bridgeChainInfo')
         const anyCallV6SupportedChains = [1, 10, 56, 100, 137, 250, 1285, 4689, 42161, 43114, 256256, 1666600000, 8888, 61]
-        const anyCallV7SupportedChains = [1, 10, 25, 56, 137, 250, 42161, 43114]
+        const anyCallV7SupportedChains = [1, 10, 25, 56, 137, 250, 42161, 43114, 61]
         setChainV6Info(res ? Object.entries(res.data).filter(r => anyCallV6SupportedChains.includes(Number(r[0]))).map(r => r[1]) : [])
         setChainV7Info(res ? Object.entries(res.data).filter(r => anyCallV7SupportedChains.includes(Number(r[0]))).map(r => r[1]) : [])
     }
@@ -51,16 +51,16 @@ const FooterDefault = (props) => {
             <h3 className='text-center pt-8' style={{ margin: '20px 0' }}>anyCall V7</h3>
             <ul className='anyCallVxSupportedChains'>
                 {
-                    chainV7Info.map((item) => <li>
+                    chainV7Info.map((item) => <a href='' target='__blank'><li>
                         <img src={item.logoUrl} width={50} height={50} />
                         <div>{item.name}</div>
-                    </li>)
+                    </li></a>)
                 }
             </ul>
             <h3 className='text-center pt-8' style={{ margin: '20px 0' }}>anyCall V6</h3>
             <ul className='anyCallVxSupportedChains'>
                 {
-                    chainV6Info.map((item) => <li>
+                    chainV6Info.map((item) => <li href='' target='__blank'>
                         <img src={item.logoUrl} width={50} height={50} />
                         <div>{item.name}</div>
                     </li>)
